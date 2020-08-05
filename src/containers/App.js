@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar.js';
-import BlogPage from './BlogPage.js';
+// import BlogPage from './BlogPage.js';
 
 
 
@@ -11,10 +11,9 @@ function App() {
         <Navbar/>
 
       </header>
-      <BlogPage/>
+  
       <p>
-        I am in the App below blog page 
-        featuring a blog post 
+        In app
         
       </p>
     </div>
