@@ -15,7 +15,7 @@ function App() {
        
           <Route path="/blogs" render={()=> <BlogPage/>}/>
           <Route path="/about" render={()=> <About/>}/>
-          <Route path="/home" render={()=> <LandingPage/>}/>
+          <Route exact path="/" render={()=> <LandingPage/>}/>
         </Router>
         </div>
     </div>
