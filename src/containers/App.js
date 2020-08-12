@@ -4,15 +4,15 @@ import LandingPage from './LandingPage.js';
 import BlogPage from './BlogPage.js';
 import About from './About.js';
 
-import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
+
+import { BrowserRouter as Router, Route} from 'react-router-dom';
 
 function App() {
   return (
     <div>
       <div>
         <Router>
-        <Navbar/>
-       
+        <Navbar  />
           <Route path="/blogs" render={()=> <BlogPage/>}/>
           <Route path="/about" render={()=> <About/>}/>
           <Route exact path="/" render={()=> <LandingPage/>}/>

@@ -1,0 +1,5 @@
+:local(.navbar) {
+  font-size:100px;
+  background-color:purple;
+  border: 5px dotted pink;
+}
