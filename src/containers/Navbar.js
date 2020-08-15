@@ -7,12 +7,14 @@ import styles from '../style/navbar.css';
 export default function Navbar() {
 
   const inLine = {
-    margin: '40px',
-    border: '5px solid pink'
+    margin: '10px',
+    border: '5px solid black',
+    
   }
 
+  // className={styles.navbar}
   return(
-    <div style={inLine}>
+    <div  style={inLine} >
     <Link to="/">
     <div>
       Chelsea
