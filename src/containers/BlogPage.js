@@ -4,7 +4,7 @@ import React from 'react';
 function BlogPage(){
   return(
 <>
-Blog PAGE!!
+blog page
 </>
   )
 }
