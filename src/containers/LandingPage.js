@@ -2,9 +2,15 @@ import React from 'react';
 
 
 export default function LandingPage(){
+
+  const inLineLanding = {
+    margin: '50px',
+    border: '5px solid green',
+    
+  }
   return(
-    <>
-      LP
-    </>
+    <div style={inLineLanding}> 
+      Landing Page
+    </div>
   )
 }
