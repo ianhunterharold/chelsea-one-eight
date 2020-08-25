@@ -7,6 +7,7 @@ export default function LandingPage(){
     margin: '50px',
     border: '5px solid green',
     
+    
   }
   return(
     <div style={inLineLanding}> 
